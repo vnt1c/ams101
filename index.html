@@ -31,7 +31,8 @@
         </ol>
         <h3>Required Materials</h3>
         <ul>
-            <li>Textbook: <a href="https://commons.library.stonybrook.edu/cgi/viewcontent.cgi?article=1000&context=ams-books" target="_blank" class="simple-link">Click Me</a></li>
+            <li>Textbook: <a href="https://commons.library.stonybrook.edu/cgi/viewcontent.cgi?article=1000&context=ams-books" target="_blank" target="_blank" class="simple-link">Click Me</a></li>
+            <li>Essence of Linear Algebra (3Blue1Brown): <a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=2" class="simple-link">Click Me</a></li>
             <li>Graphing Calculator (or <a href="https://www.desmos.com/calculator" target="_blank" class="simple-link">Desmos</a>)</li>
             <li>A working laptop</li>
             <li>Pencil and paper</li>
@@ -45,5 +46,15 @@
             <li>Maintain Duolingo streak.</li>
         </ul>
     </div>
+    <script>
+        // Load the audio file
+        const sound = new Audio('magic-wand-noise.wav');
+
+        // Add event listener to play sound on any click
+        document.addEventListener('click', () => {
+            sound.currentTime = 0; // Reset the sound to the beginning
+            sound.play();
+        });
+    </script>
 </body>
 </html>
